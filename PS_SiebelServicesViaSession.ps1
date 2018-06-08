@@ -103,6 +103,7 @@ Function GetServicesStatus (){
             $SblGetGtwpServiceStatus,$SblGetAppServiceStatus | Format-Table -Property Status,DisplayName,PSComputerName -AutoSize
         
            } #End else statement
+	   Start-Sleep -Milliseconds 5000
     } #End function statement
 
 
