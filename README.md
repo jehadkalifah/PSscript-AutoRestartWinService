@@ -16,7 +16,7 @@ This PS script file familiar to work with different environments after enter req
 2. Enter Gateway Server hostname (It's a server all application servers depend on it).
 3. Enter number of application servers (0 number mean both of Siebel Gateway and Application services configured on single server).
 4. Enter application servers hostname.
-5. Enter Standard credential.
+5. Enter standard credential.
 
 #Note:
 * You can find two scripts one of them login remotely as session (which help you to cache session and execute command take a lot of time) and another script depend on computer name (which remote session will close immediately after finish command).
