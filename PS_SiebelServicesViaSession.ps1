@@ -1,9 +1,3 @@
-﻿#Modify PS Execution Policy
-
-Set-ExecutionPolicy RemoteSigned
-
-
-
 #Add Services Variables
 
 $SblGtwyServerName = Read-Host("Enter Siebel Gateway server name: ") 
